@@ -2,6 +2,6 @@ global:
   scrape_interval: 15s
 
 scrape_configs:
-  - job_name: 'custom_app'
+  - job_name: 'custom-app'
     static_configs:
-      - targets: ['custom_app:8000']
+      - targets: ['custom-app:8000']

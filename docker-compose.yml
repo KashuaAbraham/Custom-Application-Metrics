@@ -8,7 +8,7 @@ services:
     ports:
       - "9090:9090"
     depends_on:
-      - custom_app.py
+      - custom_app
 
   grafana:
     image: grafana/grafana:latest
